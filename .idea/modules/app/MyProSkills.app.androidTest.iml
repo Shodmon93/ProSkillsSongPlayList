@@ -16,6 +16,7 @@
               <args>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2e34ec20c81b9e71a1ed2bd5e09b1215/transformed/junit-1.1.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f8a68162642c33115e4ce96a6373f9b6/transformed/espresso-core-3.5.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/327701fb8b575ac97edfa4839e4ce47d/transformed/viewbinding-7.3.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/846d22b0fcdd2c231e20ab1eb2c939a2/transformed/material-1.7.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0bdf24dfb7a20a525681e66b91253557/transformed/appcompat-1.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/758f6b6ca57ae9b5a76db053d2aff79d/transformed/viewpager2-1.0.0-api.jar</arg>
@@ -164,6 +165,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-core:3.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:viewbinding:7.3.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core-ktx:1.7.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.8.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.5.1@aar" level="project" />
