@@ -1,4 +1,4 @@
-package com.example.myproskills.data
+package com.example.data
 
 import java.util.*
 
