@@ -65,9 +65,10 @@ class HomeAdapter : ListAdapter<PlaylistData, ViewHolder>(HomeItemDiff()) {
 
         fun configSong(recyclerView: RecyclerView?) {
             val adapter = HomeSongAdapter()
-
-            song_viewBinding.homeSongRecyclerView.layoutManager = GridLayoutManager(itemView
-                .context,2,GridLayoutManager.HORIZONTAL,false)
+            song_viewBinding.homeSongRecyclerView.layoutManager = GridLayoutManager(
+                itemView
+                    .context, 2, GridLayoutManager.HORIZONTAL, false
+            )
             song_viewBinding.homeSongRecyclerView.adapter = adapter
             adapter.setData(songDataModel.getSongData())
 

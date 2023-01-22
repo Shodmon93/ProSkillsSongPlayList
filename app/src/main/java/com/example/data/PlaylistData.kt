@@ -5,5 +5,5 @@ import androidx.recyclerview.widget.RecyclerView
 data class PlaylistData(
     val id :Int,
     val name : String? = null,
-    val recyclerView: RecyclerView? = null
+    var recyclerView: RecyclerView? = null
 )

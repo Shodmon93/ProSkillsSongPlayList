@@ -85,7 +85,6 @@ class SongDataModel {
 
         val binding = view?.let { HorizontalRecyclerViewBinding.bind(it) }
 
-
         getPlaylistData = mutableListOf()
         getPlaylistData.add(PlaylistData(1,"New Release",null))
         getPlaylistData.add(PlaylistData(2, null, binding?.homeSongRecyclerView))
