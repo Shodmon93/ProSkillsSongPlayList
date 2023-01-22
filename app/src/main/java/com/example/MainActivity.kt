@@ -3,9 +3,7 @@ package com.example
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.model.SongDataModel
-import com.example.myproskills.R
 import com.example.myproskills.databinding.ActivityMainBinding
 import com.example.ui.HomeAdapter
 

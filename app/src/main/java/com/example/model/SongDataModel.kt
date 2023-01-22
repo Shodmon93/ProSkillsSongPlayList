@@ -21,40 +21,40 @@ class SongDataModel {
         getSongData.add(
             SongData(
                 1, "Here without you",
-                R.drawable.image_example008,"Rock",
+                R.drawable.pizza_001_copy,"Rock",
                 ArtistData(1, "3 Doors down"),
                 AlbumData(1, "Away from the Sun", Date(28, 7, 2008))),
         )
         getSongData.add(SongData(
             2, "Here without you",
-            R.drawable.image_example002,"Rock",
+            R.drawable.pizza_002,"Rock",
             ArtistData(1, "3 Doors down"),
             AlbumData(1, "Away from the Sun", Date(28, 7, 2008))
         ))
 
         getSongData.add( SongData(
             3, "Here without you",
-            R.drawable.image_example003,"Rock",
+            R.drawable.pizza_003,"Rock",
             ArtistData(1, "3 Doors down"),
             AlbumData(1, "Away from the Sun", Date(28, 7, 2008))
         ))
 
         getSongData.add(  SongData(
             4, "Here without you",
-            R.drawable.image_example005,"Rock",
+            R.drawable.pizza_005,"Rock",
             ArtistData(1, "3 Doors down"),
             AlbumData(1, "Away from the Sun", Date(28, 7, 2008))
         ))
         SongData(
             5, "Here without you",
-            R.drawable.image_example005,"Rock",
+            R.drawable.pizza_005,"Rock",
             ArtistData(1, "3 Doors down"),
             AlbumData(1, "Away from the Sun", Date(28, 7, 2008))
         )
 
         getSongData.add(SongData(
             6, "Here without you",
-            R.drawable.image_example006,"Rock",
+            R.drawable.pizza_008,"Rock",
             ArtistData(1, "3 Doors down"),
             AlbumData(1, "Away from the Sun", Date(28, 7, 2008))
         ))
@@ -82,28 +82,19 @@ class SongDataModel {
     }
 
     fun getPlayListData(view : View? = null) : MutableList<PlaylistData>{
+
         val binding = view?.let { HorizontalRecyclerViewBinding.bind(it) }
+
+
         getPlaylistData = mutableListOf()
-        getPlaylistData.add(PlaylistData(1,"New Release",null,null))
-        getPlaylistData.add(PlaylistData(2, null, binding?.homeSongRecyclerView,null))
-//            SongData(1,"Here without you",R.drawable.image_example002,"Rock",
-//                ArtistData(1, "3 Doors down"),
-//                AlbumData(1, "Away from the Sun", Date(28, 7, 2008)))))
-//        getPlaylistData.add(PlaylistData(1,null,null))
-//        getPlaylistData.add(PlaylistData(2, null,
-//            SongData(1,"Here without you",R.drawable.image_example003,"Rock",
-//                ArtistData(1, "3 Doors down"),
-//                AlbumData(1, "Away from the Sun", Date(28, 7, 2008)))))
-//        getPlaylistData.add(PlaylistData(1,"null",null))
-//        getPlaylistData.add(PlaylistData(2, null,
-//            SongData(1,"Here without you",R.drawable.image_example004,"Rock",
-//                ArtistData(1, "3 Doors down"),
-//                AlbumData(1, "Away from the Sun", Date(28, 7, 2008)))))
-//        getPlaylistData.add(PlaylistData(1,"New Release",null))
-//        getPlaylistData.add(PlaylistData(2, null,
-//            SongData(1,"Here without you",R.drawable.image_example005,"Rock",
-//                ArtistData(1, "3 Doors down"),
-//                AlbumData(1, "Away from the Sun", Date(28, 7, 2008)))))
+        getPlaylistData.add(PlaylistData(1,"New Release",null))
+        getPlaylistData.add(PlaylistData(2, null, binding?.homeSongRecyclerView))
+        getPlaylistData.add(PlaylistData(1,"Recently Played"))
+        getPlaylistData.add(PlaylistData(2, null, binding?.homeSongRecyclerView))
+        getPlaylistData.add(PlaylistData(1,"Top Mix ",null))
+        getPlaylistData.add(PlaylistData(2, null, binding?.homeSongRecyclerView))
+        getPlaylistData.add(PlaylistData(1,"Recently added",null))
+        getPlaylistData.add(PlaylistData(2, null, binding?.homeSongRecyclerView))
 
         return getPlaylistData
     }
